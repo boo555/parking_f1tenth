@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  
+    <include file="$(find f1tenth_simulator)/launch/simulator.launch" >
+        <arg name="map" value="$(find parking)/maps/parking.yaml"/> 
+        <!--<arg name="map" value="$(find f1tenth_simulator)/maps/torino.yaml"/> -->
+    </include>
+
+    
+</launch>
